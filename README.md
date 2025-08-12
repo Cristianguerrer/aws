@@ -44,5 +44,5 @@ Este proyecto implementa **Infrastructure as Code (IaC)** con **Terraform** para
 
 ### 1️⃣ Inicializar Terraform
 ```bash
-cd eks/iac
+cd aws/eks-alb-tf
 terraform init
