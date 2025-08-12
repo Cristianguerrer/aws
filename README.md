@@ -6,7 +6,7 @@ Este proyecto implementa **Infrastructure as Code (IaC)** con **Terraform** para
 
 ## 🚀 Arquitectura
 
-- **EKS Cluster**: Kubernetes `1.32` con 2 nodos administrados
+- **EKS Cluster**: Kubernetes `1.32` con 2 nodos administrados o spot
 - **VPC**: VPC personalizada con subredes públicas y privadas en 2 AZs
 - **Node Group**: Instancias `t3.micro` (Free Tier elegible)
 - **Networking**: 1 NAT Gateway (reduce costos frente a múltiples NATs)
